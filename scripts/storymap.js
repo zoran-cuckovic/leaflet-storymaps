@@ -290,7 +290,8 @@ $(window).on('load', function() {
         ) {
 
           // Update URL hash
-          location.hash = i + 2;
+		  // ZC commented out (to prevent new page triggers)
+          // location.hash = i + 2;
 
           // Remove styling for the old in-focus chapter and
           // add it to the new active chapter
