@@ -277,10 +277,11 @@ $(window).on('load', function() {
     $('div#contents').scroll(function() {
       var currentPosition = $(this).scrollTop();
 
-      // Make title disappear on scroll
-      if (currentPosition < 200) {
-        $('#title').css('opacity', 1 - Math.min(1, currentPosition / 100));
-      }
+      // Make title disappear on scroll 
+// This interferes with user scroll !! Commented out ZC
+  //    if (currentPosition < 200) {
+   //     $('#title').css('opacity', 1 - Math.min(1, currentPosition / 100));
+ //0     }
 
       for (var i = 0; i < pixelsAbove.length - 1; i++) {
 
