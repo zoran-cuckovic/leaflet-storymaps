@@ -44,7 +44,7 @@ body {
 }
 
 #title {
-  position: relative; /* REMOVED absolute; ZC : scrolling issue */
+  position: absolute;
   left: 0;
   top: 203px;
   background-color: white;
